@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #008080; /* Custom color for the navbar background */
+    color: #ffffff; /* Custom color for the text inside the navbar */
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .container {
+    margin: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  ol {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  form {
+    text-align: center;
+  }
+  
+  label {
+    display: inline-block;
+    margin: 5px;
+  }
+  
+  /* Updated styles for the "Number of Subjects" label */
+  label[for="subjects"] {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  input {
+    display: inline-block;
+    margin: 5px;
+  }
+  
+  button {
+    margin-top: 10px;
+    margin-right: 5px;
+    background-color: #008080; /* Custom color for the button background */
+    color: #ffffff; /* Custom color for the button text */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #004c4c; /* Custom color for the button background on hover */
+  }
+  

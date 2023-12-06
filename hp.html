@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CGPA and GPA Calculator</title>
+  <link rel="stylesheet" href="hp.css">
+</head>
+<body>
+  <nav>
+    <h1>CGPA and GPA Calculator</h1>
+  </nav>
+  <div class="container">
+    <p>
+      GPA (Grade Point Average) and CGPA (Cumulative Grade Point Average) are academic measures used to evaluate a student's performance. They are often used by educational institutions to assess the overall academic achievements of students.
+    </p>
+    <p>
+      To calculate GPA, follow these steps:
+      <ol>
+        <li>Input the number of subjects.</li>
+        <li>For each subject, enter the subject name, credit hours, and grade point.</li>
+        <li>Click the "Calculate GPA" button to see the result.</li>
+      </ol>
+    </p>
+    <p>
+      To calculate CGPA, the process is similar. Instead of calculating for individual subjects, you'll input all subjects taken across multiple semesters or academic periods. The total grade points and total credit hours are then used to calculate the CGPA.
+    </p>
+    <form id="calculator-form">
+      <label for="subjects">Number of Subjects:</label>
+      <input type="number" id="subjects" name="subjects" min="1" max="10" required><br><br>
+  
+      <div id="grades-container">
+        <!-- Grade input fields will be added dynamically using JavaScript -->
+      </div>
+  
+      <button type="button" onclick="addGradeInputs()">Add Grades</button><br><br>
+      <button type="button" onclick="calculateCGPA()">Calculate CGPA</button>
+      <button type="button" onclick="calculateGPA()">Calculate GPA</button>
+    </form>
+  
+    <div id="result-container">
+      <!-- Result will be displayed here using JavaScript -->
+    </div>
+  </div>
+  <script src="hp.js"></script>
+</body>
+</html>
